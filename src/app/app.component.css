@@ -1,0 +1,107 @@
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Error Banner */
+.error-banner {
+  background-color: #fee2e2;
+  color: rgb(217, 90, 90);
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #f87171;
+  margin-bottom: 20px;
+}
+
+/* Loader Styles */
+.loader-overlay {
+  text-align: center;
+  color: #2563eb;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Form Styles */
+.form-container {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.validation-error {
+  color: #dc2626;
+  font-size: 0.8rem;
+}
+
+/* Table Styles */
+.post-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+
+}
+
+.post-table th {
+  background-color: #91a6d0;
+  text-align: left;
+  padding: 12px;
+  border-bottom: 2px solid #000000;
+}
+
+.post-table td {
+  padding: 12px;
+  border-bottom: 1px solid #000000;
+}
+
+.text-bold { 
+    font-weight: 600;
+    text-align: left;
+ }
+
+/* Button Styles */
+.btn-toggle {
+  background-color: #4b5563;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btn-submit {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 20px;
+  border: rgb(227, 191, 191);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-submit:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
